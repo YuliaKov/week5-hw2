@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 0.5775560224089635) 0%,
+    rgba(148, 187, 233, 0.6811974789915967) 100%
+  );
+}
+
+header {
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu a {
+  text-decoration: none;
+  font-family: 'Neucha', cursive;
+  font-size: 24px;
+  font-weight: 800;
+  color: rgb(67, 4, 88);
+}
+
+.menu a:hover {
+  font-size: 28px;
+  color: rgb(138, 6, 129);
+}
+
+.menu li {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+
+main {
+  margin-top: 150px;
+}
+
+h1 {
+  font-family: 'Neucha', cursive;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  color: rgb(87, 8, 99);
+  text-shadow: 3px -3px 3px #31024d;
+}
+
+.exhibits {
+  width: 100vw;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin: 0 50px;
+}
+
+.item img {
+  width: 20vw;
+  margin-top: 50px;
+  border-radius: 25px;
+  box-shadow: 5px -5px 5px 0px rgba(75, 9, 140, 0.5);
+  transition: 1s;
+}
+
+.item img:hover {
+  transform: scale(1.2);
+  box-shadow: none;
+}
+
+.item p {
+  font-family: 'Neucha', cursive;
+  font-size: 32px;
+  font-weight: 800;
+  color: rgb(67, 4, 88);
+  text-shadow: 1px -1px 2px #31024d;
+  text-align: center;
+}
